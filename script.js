@@ -157,7 +157,7 @@ searchBtn.addEventListener('click', async () => {
 
   if(meals){
   meals.forEach((meal) => {
-      addMeal(meal);
+      addMeal(meal, true);
   });
 }
 });
